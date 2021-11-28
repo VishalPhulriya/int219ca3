@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<title>firstproject
+</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  
+</nav>
+
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" >Add some link here If you need it / ok bye</a>
+      
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+    
+  </div>
+</div>
+
+
+<div class="w3-display-container w3-animate-opacity">
+  <img src="D:\React\firstapp\src\pic5.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  
+</div>
+
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR DOCTORS</h2>
+<p>Available doctors for today are :</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="D:\React\firstapp\src\dr1.jpg" alt="Boss" style="width:45%" >
+  <h3>Dr.Robert</h3>
+  <p>Pediatrician</p>
+  <button class="w3-button w3-red w3-padding-large"> Take Appointment</button>
+
+</div>
+
+<div class="w3-quarter">
+  <img src="D:\React\firstapp\src\dr2.jpg" alt="Boss" style="width:45%" >
+  <h3>Dr.Rebecca John</h3>
+  <p>Psychiatrist</p>
+  <button class="w3-button w3-red w3-padding-large"> Take Appointment</button>
+
+</div>
+
+<div class="w3-quarter">
+  <img src="C:\Users\vikas\Downloads\istockphoto-1271328839-170667a.jpg" alt="Boss" style="width:45%" >
+  <h3>Dr.Kristan Kylls</h3>
+  <p>Cardiologist</p>
+  <button class="w3-button w3-red w3-padding-large"> Take Appointment</button>
+
+</div>
+
+<div class="w3-quarter">
+  <img src="D:\React\firstapp\src\dr4.jpg" alt="Boss" style="width:45%">
+  <h3>Dr.Suman Vats</h3>
+  <p>Dermatologists</p>
+  <button class="w3-button w3-red w3-padding-large"> Take Appointment</button>
+</div>
+
+</div>
+</div>
+
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>PISO clinic is a website for clinic management system , for booking appointments and registering patients via an online mode on hospital management website.So as to help our users save a lot of their precious time.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  
+  <div class="w3-container">
+  <h3>Get Medicines</h3>
+  <h4>7 day return policy</h4>
+  <p>Fixed Prices </p>
+  <button class="w3-button w3-blue w3-padding-large"> Buy now !!!</button>
+  
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <div class="w3-container">
+  <h3>Surgery</h3>
+  <h4>All kind Available</h4>
+  <p>Get 50% cashback </p>
+  <button class="w3-button w3-blue w3-padding-large"> Find Your doctor</button>
+  
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+ 
+  <div class="w3-container">
+  <h3>Meet a Physician Doctor </h3>
+  <h4>No fees if you are a member</h4>
+  <p>Waiting time less then 5 mins</p>
+  <button class="w3-button w3-blue w3-padding-large"> Book now !!!</button>
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>
+    <br>
+    <div class="third margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Take membership now for more benifits</p>
+        </li>
+        <li class="padding-16"><b>Life time access to free bonus </b> </li>
+        <li class="padding-16"><b>Top priorty in waiting lists</b> </li>
+        <li class="padding-16"><b>Free consultancy on all issues</b> </li>
+        <li class="padding-16"><b>NO cancelation charges</b> </li>
+        <li class="padding-16">
+          <h2 class="wide"></i> Rs.299 only</h2>
+          <span class="opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    
+
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Lovely Professional University</p>
+      <p><i class="fa fa-map-marker  w-xlarge"></i>  Jalandhar, India</p>
+      <p><i class="fa fa-phone  w3-xlarge"></i>  123456789</p>
+      <p><i class="fa fa-envelope-o  w3-xlarge"></i>  email.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w-section">      
+        <label>Name  </label>
+        <input class="input" type="text" name="Name" required>
+      </div>
+      <br/>
+      <div class="section">      
+        <label>Email</label>
+        <input class="input" type="text" name="Email" required>
+      </div>
+      <br/>
+      <div class="section">      
+        <label>Message</label>
+        <input class="input" type="text" name="Message" required>
+      </div>  
+      <br/>
+      <input class="check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <br/>
+      <br/>
+      <button type="submit" >Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
